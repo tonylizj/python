@@ -24,8 +24,6 @@ print(unluckyOne([2, 1, 3, 4, 5]))
 print(unluckyOne([1, 1, 1]))
 
 
-
-
 # A.2
 def two23(numlist):
     twos = 0
