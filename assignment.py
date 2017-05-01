@@ -5,7 +5,7 @@ def unluckyOne(numlist):
     :param numlist: list - list to check.
     :return: bool - whether a 1 in the first two or last two positions is immediately followed by a 3.
     """
-    # iterates through every number
+    # iterates through the list
     for i in range(len(numlist)):
         # returns True if the number is 1 in the first two or last two positions and the number after it is a 3
         if numlist[i] == 1 and i in [0, 1, len(numlist) - 2] and numlist[i+1] == 3:
@@ -176,7 +176,7 @@ def print_pascal(i, j):
 
     # iterates through every row
     for y in range(i):
-        # append a nested list for every row
+        # append a nested empty list for every row
         triangle.append([])
         # iterates through every element in the row
         for x in range(j):
