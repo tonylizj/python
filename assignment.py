@@ -10,7 +10,7 @@ def unluckyOne(numlist):
 
     # iterates through every number
     for position, number in enumerate(numlist):
-        # set possibility as True if the number is a 1 in the first two or last two positions
+        # sets possibility as True if the number is a 1 in the first two or last two positions
         if number == 1 and position in [0, 1, len(numlist) - 1, len(numlist) - 2]:
             possibility = True
 
@@ -18,7 +18,7 @@ def unluckyOne(numlist):
         elif number == 3 and possibility:
             return True
 
-        # set possibility as False if the number is neither
+        # sets possibility as False if the number is neither
         else:
             possibility = False
 
