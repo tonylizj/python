@@ -114,3 +114,26 @@ def loudVowels(sentence):
 
 
 print(loudVowels("I snap my fingers when I sing"))
+
+
+# D.2
+
+# E.1
+def print_pascal(i, j):
+    triangle = []
+    for y in range(i):
+        triangle.append([])
+        for x in range(j):
+            if y == 0:
+                triangle[y].append(1)
+            elif x == 0:
+                triangle[y].append(1)
+            else:
+                triangle[y].append(triangle[y][x-1] + triangle[y-1][x])
+            print(str(triangle[y][x]) + "\t", end='')
+
+        print("")
+
+print_pascal(3,4)
+
+# E.2
