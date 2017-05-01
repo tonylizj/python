@@ -5,8 +5,9 @@ def unluckyOne(numlist):
     :param numlist: list - list to check.
     :return: bool - whether a 1 in the first two or last two positions is immediately followed by a 3.
     """
-
+    # iterates through every number
     for i in range(len(numlist)):
+        # returns True if the number is 1 in the first two or last two positions and the number after it is a 3
         if numlist[i] == 1 and i in [0, 1, len(numlist) - 2] and numlist[i+1] == 3:
             return True
 
@@ -29,13 +30,13 @@ def two23(numlist):
     twos = 0
     threes = 0
 
-    # iterates through every number
+    # iterates through the list
     for number in numlist:
-        # if the number is 2, accumulator twos is increased by one
+        # accumulator twos is increased by one if the number is 2
         if number == 2:
             twos += 1
 
-        # if the number is 3, accumulator threes is increased by one
+        # accumulator threes is increased by one if the number is 3
         elif number == 3:
             threes += 1
 
@@ -85,7 +86,7 @@ def tenStreak(numlist):
     # seen_multiple means a multiple of ten has been found in the list
     seen_multiple = False
 
-    # iterates through every number
+    # iterates through the list
     for i in range(len(numlist)):
         # set seen_multiple as True and store the number if the number is a multiple of ten
         if numlist[i] % 10 == 0:
