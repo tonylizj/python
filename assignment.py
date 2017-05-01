@@ -11,7 +11,7 @@ def unluckyOne(numlist):
     # iterates through every number
     for position, number in enumerate(numlist):
         # sets possibility as True if the number is a 1 in the first two or last two positions
-        if number == 1 and position in [0, 1, len(numlist) - 1, len(numlist) - 2]:
+        if number == 1 and position in [0, 1, len(numlist) - 1]:
             possibility = True
 
         # returns True is the number is 3 and possibility is True
@@ -204,11 +204,11 @@ def print_pascal(i, j):
                 triangle[y].append(triangle[y][x-1] + triangle[y-1][x])
 
             # prints the element with a tab and no line break
-            print(str(triangle[y][x]) + "\t", end='')
+            print(str(triangle[y][x]) + "\t", end="")
 
         # at the end of every row, print a line break
         print("")
 
-print_pascal(3,4)
+print_pascal(4, 5)
 
 # E.2
