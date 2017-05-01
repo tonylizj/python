@@ -59,7 +59,7 @@ def shiftLeft3(numlist):
     :param numlist: list - list to shift.
     :return: list - a copy of the original list with every element shifted left one index.
     """
-    # initializes shifted list with 3 elements
+    # initializes shifted list with three elements
     newlist = [0, 0, 0]
 
     # iterates through the list
