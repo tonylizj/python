@@ -5,22 +5,10 @@ def unluckyOne(numlist):
     :param numlist: list - list to check.
     :return: bool - whether a 1 in the first two or last two positions is immediately followed by a 3.
     """
-    # possibility means that the last number was a 1 in the first two or last two positions
-    possibility = False
 
-    # iterates through every number
-    for position, number in enumerate(numlist):
-        # sets possibility as True if the number is a 1 in the first two or last two positions
-        if number == 1 and position in [0, 1, len(numlist) - 1]:
-            possibility = True
-
-        # returns True is the number is 3 and possibility is True
-        elif number == 3 and possibility:
+    for i in range(len(numlist)):
+        if numlist[i] == 1 and i in [0, 1, len(numlist) - 2] and numlist[i+1] == 3:
             return True
-
-        # sets possibility as False if the number is neither
-        else:
-            possibility = False
 
     return False
 
