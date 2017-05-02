@@ -178,26 +178,27 @@ def print_pascal(i, j):
     for y in range(i):
         # append a nested empty list for every row
         triangle.append([])
+
         # iterates through every element in the row
         for x in range(j):
-            # every element is set as 1 if it is the first row
-            if y == 0:
+            # the element is appended as 1 if it is the first row or the first element in the row
+            if y == 0 or x == 0:
                 triangle[y].append(1)
 
-            # the element is set as 1 if it is the first element in the row
-            elif x == 0:
-                triangle[y].append(1)
-
-            # the element is set as the sum of the element above and to the left of it
+            # the element is appended as the sum of the element above and to the left of it
             else:
                 triangle[y].append(triangle[y][x-1] + triangle[y-1][x])
 
-            # prints the element with a tab and no line break
-            print(str(triangle[y][x]) + "\t", end="")
+    # iterates through the 2D list for printing
+    for y in range(len(triangle)):
+
+        for x in range(len(triangle[y])):
+            # prints the element with a tab and no line break, using the field width of the longest number
+            print("{0:<{1}}".format(triangle[y][x], len(str(triangle[-1][-1]))+2), end="")
 
         # at the end of every row, print a line break
         print("")
 
-print_pascal(4, 5)
+print_pascal(10, 10)
 
 # E.2
