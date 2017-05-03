@@ -60,10 +60,10 @@ def shiftLeft3(numlist):
     :return: list - a copy of the original list with every element shifted left one index.
     """
     # initializes shifted list with three elements
-    newlist = [0, 0, 0]
+    newlist = [0]*len(numlist)
 
     # iterates through the list
-    for i in range(3):
+    for i in range(len(numlist)):
         # shifts every element one index left
         newlist[i - 1] = numlist[i]
 
@@ -199,6 +199,6 @@ def print_pascal(i, j):
         # at the end of every row, print a line break
         print("")
 
-print_pascal(10, 10)
+print_pascal(20, 20)
 
 # E.2
