@@ -60,7 +60,7 @@ def shiftLeft3(numlist):
     :return: list - a copy of the original list with every element shifted left one index.
     """
     # initializes shifted list with three elements
-    newlist = [0]*len(numlist)
+    newlist = [0] * len(numlist)
 
     # iterates through the list
     for i in range(len(numlist)):
