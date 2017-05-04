@@ -199,7 +199,7 @@ def print_pascal(i, j):
         # prints a line break after every row
         print()
 
-print_pascal(20, 20)
+print_pascal(10, 10)
 
 # E.2
 def diagonal(n):
@@ -215,21 +215,18 @@ def diagonal(n):
     for y in range(n):
         # appends a nested empty list for every row
         grid.append([])
-        # after_one means a 1 has been printed in the current row
-        after_one = False
 
         # iterates through every element in the row
         for x in range(n):
             # the element is appended as 1 if is it on the diagonal
             if x == n - y - 1:
                 grid[y].append(1)
-                after_one = True
 
-            # the element is appended as 2 if a 1 has been printed in the row
-            elif after_one:
+            # the element is appended as 2 if it is after the 1
+            elif x > n - y - 1:
                 grid[y].append(2)
 
-            # the element is appended as 0 if a 1 has not been printed in the row
+            # the element is appended as 0 if it is before the 1
             else:
                 grid[y].append(0)
 
