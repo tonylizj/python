@@ -88,12 +88,12 @@ def tenStreak(numlist):
 
     # iterates through the list
     for i in range(len(numlist)):
-        # set seen_multiple as True and store the number if the number is a multiple of ten
+        # sets seen_multiple as True and store the number if the number is a multiple of ten
         if numlist[i] % 10 == 0:
             seen_multiple = True
             multiple = numlist[i]
 
-        # change the number to the multiple if seen_multiple is True
+        # changes the number to the multiple if seen_multiple is True
         elif seen_multiple:
             numlist[i] = multiple
 
@@ -114,8 +114,8 @@ print(tenStreak([10, 1, 9, 20]))
 def closeby(nums1, nums2):
     """
     In two given lists, returns the number of times when their corresponding numbers are not equal but less than three apart.
-    :param nums1: list - one of the lists to compare
-    :param nums2: list - one of the lists to compare
+    :param nums1: list - one of the lists to compare.
+    :param nums2: list - one of the lists to compare.
     :return: int - the number of times when the corresponding numbers of the two lists are not equal but less than three apart.
     """
     # initializes accumulator counts
@@ -123,7 +123,7 @@ def closeby(nums1, nums2):
 
     # iterates through one of the lists
     for i in range(len(nums1)):
-        # if the numbers at the corresponding index are not equal but less than three apart, accumulator counts is increased by one
+        # accumulator counts is increased by one if the numbers at the corresponding index are not equal but less than three apart
         if nums1[i] != nums2[i] and abs(nums1[i] - nums2[i]) < 3:
             counts += 1
 
@@ -167,16 +167,16 @@ print(loudVowels("I snap my fingers when I sing"))
 def print_pascal(i, j):
     """
     With given length and width, print a grid of numbers according to pascal's triangle where every number is the sum of the number above and to the left of it.
-    :param i: int - the number of rows of the grid
-    :param j: int - the number of columns of the grid
-    :return: none
+    :param i: int - the number of rows of the grid.
+    :param j: int - the number of columns of the grid.
+    :return: none.
     """
     # initializes main list
     triangle = []
 
     # iterates through every row
     for y in range(i):
-        # append a nested empty list for every row
+        # appends a nested empty list for every row
         triangle.append([])
 
         # iterates through every element in the row
@@ -196,32 +196,47 @@ def print_pascal(i, j):
             # prints the element with a tab and no line break, using the field width of the longest number
             print("{0:<{1}}".format(triangle[y][x], len(str(triangle[-1][-1]))+2), end="")
 
-        # at the end of every row, print a line break
+        # prints a line break after every row
         print("")
 
 print_pascal(20, 20)
 
 # E.2
 def diagonal(n):
+    """
+    With given dimensions, print a square grid of numbers where the diagonal from the top right to the bottom left is 1, numbers above the line is 0, and numbers below the line is 2.
+    :param n: the length and width of the printed square grid.
+    :return: none.
+    """
+    # initializes the main list
     grid = []
 
+    # iterates through every row
     for y in range(n):
+        # appends a nested empty list for every row
         grid.append([])
+        # after_one means a 1 has been printed in the current row
         after_one = False
 
+        # iterates through every element in the row
         for x in range(n):
-            if x != n - y - 1 and not after_one:
-                grid[y].append(0)
-
-            elif x == n - y - 1:
+            # the element is appended as 1 if is it on the diagonal
+            if x == n - y - 1:
                 grid[y].append(1)
                 after_one = True
 
+            # the element is appended as 2 if a 1 has been printed in the row
             elif after_one:
                 grid[y].append(2)
 
+            # the element is appended as 0 if a 1 has not been printed in the row
+            else:
+                grid[y].append(0)
+
+            # prints the element followed by a space without a line break
             print(str(grid[y][x]) + " ", end="")
 
+        # prints a line break after every row
         print("")
 
 diagonal(8)
