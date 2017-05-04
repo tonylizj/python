@@ -197,7 +197,7 @@ def print_pascal(i, j):
             print("{0:<{1}}".format(triangle[y][x], len(str(triangle[-1][-1]))+2), end="")
 
         # prints a line break after every row
-        print("")
+        print()
 
 print_pascal(20, 20)
 
@@ -234,9 +234,9 @@ def diagonal(n):
                 grid[y].append(0)
 
             # prints the element followed by a space without a line break
-            print(str(grid[y][x]) + " ", end="")
+            print(str(grid[y][x]), end=" ")
 
         # prints a line break after every row
-        print("")
+        print()
 
 diagonal(8)
