@@ -202,3 +202,25 @@ def print_pascal(i, j):
 print_pascal(20, 20)
 
 # E.2
+def diagonal(n):
+    grid = []
+    after = False
+    for y in range(n):
+        grid.append([])
+        for x in range(n):
+            if x != n - y - 1 and not after:
+                grid[y].append(0)
+
+            elif x == n - y - 1:
+                grid[y].append(1)
+                after = True
+
+            elif after:
+                grid[y].append(2)
+
+            print(str(grid[y][x]) + " ", end="")
+
+        after = False
+        print("")
+
+diagonal(8)
