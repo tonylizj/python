@@ -23,9 +23,11 @@ def unluckyOne(numlist):
     return False
 
 
+print("\nA.1: unluckyOne")
 print(unluckyOne([1, 3, 4, 5]))
 print(unluckyOne([2, 1, 3, 4, 5]))
 print(unluckyOne([1, 1, 1]))
+print(unluckyOne([2, 3, 1, 3, 4, 5]))
 
 
 # A.2
@@ -56,15 +58,18 @@ def two23(numlist):
     return False
 
 
+print("\nA.2: two23")
 print(two23([2, 2]))
 print(two23([3, 3]))
 print(two23([2, 3]))
+print(two23([]))
+print(two23([2, 3, 2, 2, 3, 3]))
 
 
 # A.3
 def shiftLeft3(numlist):
     """
-    In a given list with three elements, shift every element left one index. The first element is moved to the end of the list.
+    In a given list, shift every element left one index. The first element is moved to the end of the list. Returns the shifted list.
     :param numlist: list - list to shift.
     :return: list - a copy of the original list with every element shifted left one index.
     """
@@ -80,15 +85,17 @@ def shiftLeft3(numlist):
     return new_list
 
 
+print("\nA.3: shiftLeft3")
 print(shiftLeft3([1, 2, 3]))
 print(shiftLeft3([5, 11, 9]))
 print(shiftLeft3([7, 0, 0]))
+print(shiftLeft3([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
 
 
 # B.1
 def tenStreak(numlist):
     """
-    In a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list.
+    In a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list. Returns the shifted list.
     :param numlist: list - list to change.
     :return: list - a copy of the original list with every element after a multiple of ten changed to that number.
     """
@@ -110,9 +117,12 @@ def tenStreak(numlist):
     return numlist
 
 
+print("\nB.1: tenStreak")
 print(tenStreak([2, 10, 3, 4, 20, 5]))
 print(tenStreak([10, 1, 20, 2]))
 print(tenStreak([10, 1, 9, 20]))
+print(tenStreak([1, 3, 9, 4]))
+print(tenStreak([20, 2, 3, 10, 7]))
 
 
 # B.2
@@ -140,6 +150,7 @@ def closeby(nums1, nums2):
     return counts
 
 
+print("\nC.1: closeby")
 print(closeby([1, 2, 3], [2, 3, 10]))
 print(closeby([1, 2, 3], [2, 3, 5]))
 print(closeby([1, 2, 3], [2, 3, 3]))
@@ -167,7 +178,9 @@ def loudVowels(sentence):
     return "".join(sentence_list)
 
 
+print("\nD.1: loudVowels")
 print(loudVowels("I snap my fingers when I sing"))
+print(loudVowels("The water flows through the creek"))
 
 
 # D.2
@@ -208,7 +221,11 @@ def print_pascal(i, j):
         # prints a line break after every row
         print()
 
+
+print("\nE.1: print_pascal")
 print_pascal(10, 10)
+print_pascal(20, 20)
+
 
 # E.2
 def diagonal(n):
@@ -245,4 +262,7 @@ def diagonal(n):
         # prints a line break after every row
         print()
 
+
+print("\nE.2: diagonal")
 diagonal(8)
+diagonal(17)
