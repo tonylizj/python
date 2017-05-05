@@ -1,3 +1,12 @@
+"""
+-------------------------------------------------------------------------------
+Name:		lists_assignment.py
+Purpose:    a variety of functions demonstrating knowledge of list processing, list processing with loops, related lists, string methods, and 2D lists.
+Author:		Li. T
+Created:		27/04/2017
+------------------------------------------------------------------------------
+"""
+
 # A.1
 def unluckyOne(numlist):
     """
@@ -59,16 +68,16 @@ def shiftLeft3(numlist):
     :param numlist: list - list to shift.
     :return: list - a copy of the original list with every element shifted left one index.
     """
-    # initializes shifted list with three elements
-    newlist = [0] * len(numlist)
+    # initializes shifted list with the number of elements of the given list
+    new_list = [0] * len(numlist)
 
     # iterates through the list
     for i in range(len(numlist)):
         # shifts every element one index left
-        newlist[i - 1] = numlist[i]
+        new_list[i - 1] = numlist[i]
 
     # returns the shifted list
-    return newlist
+    return new_list
 
 
 print(shiftLeft3([1, 2, 3]))
@@ -115,7 +124,7 @@ def closeby(nums1, nums2):
     """
     In two given lists, returns the number of times when their corresponding numbers are not equal but less than three apart.
     :param nums1: list - one of the lists to compare.
-    :param nums2: list - one of the lists to compare.
+    :param nums2: list - another one of the lists to compare.
     :return: int - the number of times when the corresponding numbers of the two lists are not equal but less than three apart.
     """
     # initializes accumulator counts
@@ -172,29 +181,29 @@ def print_pascal(i, j):
     :return: none.
     """
     # initializes main list
-    triangle = []
+    grid = []
 
     # iterates through every row
     for y in range(i):
         # appends a nested empty list for every row
-        triangle.append([])
+        grid.append([])
 
         # iterates through every element in the row
         for x in range(j):
             # the element is appended as 1 if it is the first row or the first element in the row
             if y == 0 or x == 0:
-                triangle[y].append(1)
+                grid[y].append(1)
 
             # the element is appended as the sum of the element above and to the left of it
             else:
-                triangle[y].append(triangle[y][x-1] + triangle[y-1][x])
+                grid[y].append(grid[y][x-1] + grid[y-1][x])
 
     # iterates through the 2D list for printing
-    for y in range(len(triangle)):
+    for y in range(len(grid)):
 
-        for x in range(len(triangle[y])):
+        for x in range(len(grid[y])):
             # prints the element with a tab and no line break, using the field width of the longest number
-            print("{0:<{1}}".format(triangle[y][x], len(str(triangle[-1][-1]))+2), end="")
+            print("{0:<{1}}".format(grid[y][x], len(str(grid[-1][-1]))+2), end="")
 
         # prints a line break after every row
         print()
