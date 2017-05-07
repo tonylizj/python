@@ -1,6 +1,6 @@
 """
 -------------------------------------------------------------------------------
-Name:		lists_assignment.py
+Name:		list_assignment.py
 Purpose:    a variety of functions demonstrating knowledge of list processing, list processing with loops, related lists, string methods, and 2D lists.
 Author:		Li. T
 Created:		27/04/2017
