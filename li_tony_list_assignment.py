@@ -27,7 +27,7 @@ def unluckyOne(numlist):
 # B.1
 def tenStreak(numlist):
     """
-    In a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list. Returns the shifted list.
+    In a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list. Returns the changed list.
     :param numlist: list - list to change.
     :return: list - a copy of the original list with every element after a multiple of ten changed to that number.
     """
@@ -155,7 +155,9 @@ print_pascal(10, 10)
 print_pascal(20, 20)
 
 
-"""--------------------------------------------------------------extras--------------------------------------------------------------"""
+print("--------------------------------------------------------------extras--------------------------------------------------------------")
+
+
 # A.2
 def two23(numlist):
     """
