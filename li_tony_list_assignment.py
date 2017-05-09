@@ -11,7 +11,7 @@ Created:		27/04/2017
 # A.1
 def unluckyOne(numlist):
     """
-    In a given list, returns True if a 1 in the first two or last two positions is immediately followed by a 3. Returns False otherwise.
+    With a given list, returns True if a 1 in the first two or last two positions is immediately followed by a 3. Returns False otherwise.
     :param numlist: list - list to check.
     :return: bool - whether a 1 in the first two or last two positions is immediately followed by a 3.
     """
@@ -27,7 +27,7 @@ def unluckyOne(numlist):
 # B.1
 def tenStreak(numlist):
     """
-    In a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list. Returns the changed list.
+    With a given list, change every element after a multiple of ten to that number. When another multiple of ten is encountered, every subsequent element is changed to that number instead. Continues until the end of the list. Returns the changed list.
     :param numlist: list - list to change.
     :return: list - a copy of the original list with every element after a multiple of ten changed to that number.
     """
@@ -52,7 +52,7 @@ def tenStreak(numlist):
 # C.1
 def closeby(nums1, nums2):
     """
-    In two given lists, returns the number of times when their corresponding numbers are not equal but less than three apart.
+    With two given lists, returns the number of times when their corresponding numbers are not equal but less than three apart.
     :param nums1: list - one of the lists to compare.
     :param nums2: list - another one of the lists to compare.
     :return: int - the number of times when the corresponding numbers of the two lists are not equal but less than three apart.
@@ -73,7 +73,7 @@ def closeby(nums1, nums2):
 # D.1
 def loudVowels(sentence):
     """
-    In a given string, return a copy of the original with every vowel (a, e, i, o, u) capitalized.
+    With a given string, return a copy of the original with every vowel (a, e, i, o, u) capitalized.
     :param sentence: str - the text to change.
     :return: str - a copy of the original with every vowel capitalized.
     """
