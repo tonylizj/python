@@ -1,5 +1,5 @@
 from tkinter.filedialog import askopenfile
-import a3
+import a3_old
 
 
 def print_board(board):
@@ -9,7 +9,7 @@ def print_board(board):
     """
 
     for row_idx in range(len(board)):
-        print(a3.make_str_from_row(board, row_idx))
+        print(a3_old.make_str_from_row(board, row_idx))
 
 
 def get_players_list():
@@ -42,7 +42,7 @@ def play_game(players, board, words):
 
     Play the game with players, board and words.
     """
-    num_remaining = a3.num_words_on_board(board, words) - len(found_words)
+    num_remaining = a3_old.num_words_on_board(board, words) - len(found_words)
     player_num = 0
     while num_remaining > 0:
         print_headers(players, board, found_words, num_remaining)
@@ -51,12 +51,12 @@ def play_game(players, board, words):
             player=players[player_num % len(players)][0]))
 
         guess = guess.strip().upper()
-        if a3.is_valid_word(words, guess) and a3.board_contains_word(board, guess) and \
+        if a3_old.is_valid_word(words, guess) and a3_old.board_contains_word(board, guess) and \
             not guess in found_words:
-            a3.update_score(players[player_num % len(players)], guess)
+            a3_old.update_score(players[player_num % len(players)], guess)
             found_words.append(guess)
 
-        num_remaining = a3.num_words_on_board(board, words) - len(found_words)
+        num_remaining = a3_old.num_words_on_board(board, words) - len(found_words)
         player_num += 1
 
     print("Game over!\n")
@@ -85,12 +85,12 @@ def print_score(players):
 
 # Load the words list.
 words_file = askopenfile(mode='r', title='Select word list file')
-words = a3.read_words(words_file)
+words = a3_old.read_words(words_file)
 words_file.close()
 
 # Load the board.
 board_file = askopenfile(mode='r', title='Select board file')
-board = a3.read_board(board_file)
+board = a3_old.read_board(board_file)
 board_file.close()
 
 found_words = []
