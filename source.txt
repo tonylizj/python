@@ -1,0 +1,57 @@
+This product is meant for educational purposes only. Any resemblance to real persons, Yes yes No no Wine wine Beer beer Hi hello living or dead is purely coincidental. Void where prohibited. Some assembly required. List each check separately by bank number. Batteries not included.
+Contents may settle during shipment. Use only as directed. No other warranty expressed or implied. Do not use while operating a motor vehicle or heavy equipment. Postage will be paid by addressee. Subject to CARB approval.
+
+The wind shrieks up and down the house
+like a predatory bird,
+feathery swirls of dust
+everywhere, snakes hitting blunt heads
+on bedroom walls, the sun leaping
+through windows like a tiger.
+
+Another meat-eater of a morning,
+soaked-up city teeming with clotheslines
+and coffee smog, an itch in every
+sweltering corner. Careful of those
+mail slots, their sweaty discontent.
+The cracks and cleavage of it all
+coming down on our heads.
+
+Think of what we've made for ourselves:
+somewhere to escape from, shoes lined up
+in neat little rows like jungle airstrips.
+The walls are trembling, rugs coughing,
+cellar stairs tumbling into one another
+until there's no place else to go.
+
+Is any of this free will?
+Thick skulls with their dinosaur attitudes.
+We settle on making the best of it,
+stride into the sun and are instantly
+ripped into shadows. Another day,
+the six-sided die of a risk.
+
+We don't remember choosing
+any of these extremes: the sight
+of ourselves in the bathroom mirror,
+pajama pants curling around ankles,
+the parrot squawks of The Globe & Mail
+with its daily dooms, the poem
+that keeps misinterpreting.
+
+On we go, all these wrists hailing cabs,
+these hearts beating in a pile
+like something the ants dragged home.
+We are the everyday, stripped raw
+with sun, blown up and down,
+dust-snakes writhing in our lungs.
+
+We choose, escaping on a daily
+basis, with or without our feet,
+shadows tattered and windy.
+The morning devours our beliefs,
+our cautions, splitting us into shrieks,
+the sort of music you'd expect from bones.
+
+Working with text files is easy in Python. The first step is to associate a file with a variable using open the function.  A file object is immediately assigned to a variable like this:
+
+Opening a file for writing prepares that file to receive data. If no file with the given name exists, a new file will be created. A word of warning: if a file with the given name does exist, Python will delete it and create a new, empty file. When writing to a file, make sure you do not overwrite any files you will need later! Here is an example of opening a file for output:

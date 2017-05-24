@@ -1,0 +1,57 @@
+Thith prroduct be meant forr educational purrpotheth only. Yarr! Any rrethemblance to rreal perrthonth, Aye aye Nay nay Grog grog Grog grog Ahoy ahoy living orr dead be purrely coincidental. Yarr! Void wherre prrohibited. Yarr! Some aththembly rrequirred. Yarr! Litht each check theparrately by bank numberr. Yarr! Batterrieth nay included. Yarr!
+Contentth may thettle durring thhipment. Yarr! Uthe only ath dirrected. Yarr! No otherr warrrranty exprreththed orr implied. Yarr! Do nay uthe while operrating an motorr vehicle orr heavy equipment. Yarr! Pothtage will be paid by addrreththee. Yarr! Subject to CARRB apprroval. Yarr!
+
+The wind thhrriekth up and down the houthe
+like an prredatorry birrd,
+featherry thwirrlth of dutht
+everrywherre, thnaketh hitting blunt headth
+on bedrroom wallth, the thun leaping
+thrrough windowth like an tigerr. Yarr!
+
+Anotherr meat-eaterr of an morrning,
+thoaked-up city teeming with clothethlineth
+and coffee thmog, an itch in everry
+thwelterring corrnerr. Yarr! Carreful of thothe
+mail thlotth, theirr thweaty dithcontent. Yarr!
+The crrackth and cleavage of it all
+coming down on ourr headth. Yarr!
+
+Think of what we've made forr ourrthelveth:
+thomewherre to ethcape frrom, thhoeth lined up
+in neat little rrowth like jungle airrthtrripth. Yarr!
+The wallth arre trrembling, rrugth coughing,
+cellarr thtairrth tumbling into one anotherr
+until therre'th nay place elthe to go. Yarr!
+
+Ith any of thith frree will?
+Thick thkullth with theirr dinothaurr attitudeth. Yarr!
+We thettle on making the betht of it,
+thtrride into the thun and arre inthtantly
+rripped into thhadowth. Yarr! Anotherr day,
+the thix-thided die of an rrithk. Yarr!
+
+We don't rrememberr choothing
+any of thethe extrremeth: the thight
+of ourrthelveth in the bathrroom mirrrrorr,
+pajama pantth currling arround ankleth,
+the parrrrot thquawkth of The Globe & Mail
+with itth daily doomth, the poem
+that keepth mithinterrprreting. Yarr!
+
+On we go, all thethe wrrithtth hailing cabth,
+thethe hearrtth beating in an pile
+like thomething the antth drragged home. Yarr!
+We arre the everryday, thtrripped rraw
+with thun, blown up and down,
+dutht-thnaketh wrrithing in ourr lungth. Yarr!
+
+We choothe, ethcaping on an daily
+bathith, with orr without ourr feet,
+thhadowth tatterred and windy. Yarr!
+The morrning devourrth ourr beliefth,
+ourr cautionth, thplitting uth into thhrriekth,
+the thorrt of muthic you'd expect frrom boneth. Yarr!
+
+Worrking with text fileth be eathy in Python. Yarr! The firrtht thtep be to aththociate an file with an varriable uthing open the function. Yarr!  A file object be immediately aththigned to an varriable like thith:
+
+Opening an file forr wrriting prreparreth that file to rreceive data. Yarr! If nay file with the given name exithtth, an new file will be crreated. Yarr! A worrd of warrning: if an file with the given name doeth exitht, Python will delete it and crreate an new, empty file. Yarr! When wrriting to an file, make thurre ye do nay overrwrrite any fileth ye will need laterr! Herre be an example of opening an file forr output:
