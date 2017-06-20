@@ -238,9 +238,9 @@ def battle(inventory):
         if spawn < 3:
             # if the player has a pistol
             if "pistol" in inventory:
-                print("\nYou suddenly see face-to-face to a Federation soldier. You pull out the pistol you took from weapons management.")
-                time.sleep(2)
-                damage = random.randint(0, 15)
+                print("\nYou suddenly see face-to-face to a Federation soldier. You pull out the pistol you took from weapons management.\n")
+                time.sleep(3)
+                damage = random.randint(5, 15)
                 # health is reduced by the amount of damage taken
                 inventory[0] = inventory[0] - damage
                 print("You took {0} points of damage. You have {1} health remaining.".format(damage, inventory[0]))
@@ -248,8 +248,8 @@ def battle(inventory):
             # if the player did not take the pistol
             elif "pistol" not in inventory:
                 print("\nYou suddenly see face-to-face to a Federation soldier. You pull out your knife.")
-                print("There is a pistol at weapons management. It would help.")
-                time.sleep(2)
+                print("There is a pistol at weapons management. It would help.\n")
+                time.sleep(3)
                 damage = random.randint(10, 20)
                 # health is reduced by the amount of damage taken
                 inventory[0] = inventory[0] - damage
@@ -508,7 +508,9 @@ def performaction(currentroom, action, inventory):
                         if "navbp" in inventory:
                             inventory.append("nav")
                             print("You fix the navigations system with the blueprint you found. It works.")
+                            time.sleep(1)
                             print("Let's go home.")
+                            time.sleep(2)
 
                         else:
                             print(
@@ -521,7 +523,9 @@ def performaction(currentroom, action, inventory):
                     if "navbp" in inventory:
                         inventory.append("nav")
                         print("You fix the navigations system with the blueprint you found. It works.")
+                        time.sleep(1)
                         print("Let's go home.")
+                        time.sleep(2)
 
                     else:
                         print(
@@ -532,9 +536,8 @@ def performaction(currentroom, action, inventory):
 
             if "raid" not in inventory:
                 inventory.append("raid")
-                print(
-                    "Suddenly, the whole ship shakes. Another ship has docked with your ship. Judging by the signature, it's a Federation ship. How could they have found us?")
-                print("Federation soldiers are piling into the ship.")
+                print("\nSuddenly, the whole ship shakes. Another ship has docked with your ship. Judging by the signature, it's a Federation ship. How could they have found us?")
+                print("Federation soldiers are piling into the ship. You need to be careful.")
 
         elif action == "":
             print("You choose to do nothing.")
@@ -544,8 +547,7 @@ def performaction(currentroom, action, inventory):
 
     elif currentroom == room13:
         if action == "1":
-            print(
-                "You can see asteroids moving in the darkness. A faint glow in the distance resembles a Federation ship in pursuit. You should hurry.")
+            print("You can see asteroids moving in the darkness. A faint glow in the distance resembles a Federation ship in pursuit. You should hurry.")
 
         elif action == "":
             print("You choose to do nothing.")
@@ -569,7 +571,7 @@ def intro(inventory):
     print(" | |      | || |  __| |__| |  | | | (___ | |__) | |__  | |__  | |  | |")
     print(" | |      | || | |_ |  __  |  | |  \___ \|  ___/|  __| |  __| | |  | |")
     print(" | |____ _| || |__| | |  | |  | |  ____) | |    | |____| |____| |__| |")
-    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.12")
+    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.13")
     print("                                                                        Created by: Tony Li")
     print("                             1: New Game")
     print("                             2: Load Game")
@@ -628,10 +630,11 @@ def intro(inventory):
                     inventory.append(savefile.readline().strip())
                     if inventory[-1] == "":
                         inventory.remove("")
+                        inventory.remove(100)
                         break
-                    inventory[0] = int(inventory[0])
 
                 print("Game loaded.")
+                inventory[0] = int(inventory[0])
                 print(inventory)
                 return inventory
 
@@ -674,6 +677,7 @@ def playgame():
         chosenaction = input("\nWhat do you do? ")
         print()
         inventory = performaction(currentroom, chosenaction, inventory)
+        time.sleep(1)
         currentroom = currentroom.move()
         gameover = battle(inventory)
         input("Press enter to continue..")
