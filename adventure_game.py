@@ -1,3 +1,14 @@
+
+# -------------------------------------------------------------------------------
+# Name:		adventure_game_tonyli.py
+# Purpose:		an adventure game where you are stuck in a stranded spaceship
+#
+# Author:		Li.T
+#
+# Created:		20/6/2017
+# ------------------------------------------------------------------------------
+
+
 # import modules
 import time
 import os
@@ -88,35 +99,33 @@ class Room:
         self.east = east
         self.west = west
 
-    def move(self, direction):
+    def move(self):
         """
         Moves player to a connected room
-        :param direction: direction to move in
         :return: new room player is in
         """
-        # changes direction to single letter
-        direction = interpretinput(direction)
-        # returns the room in the specified direction in relation to the current room
-        if direction == "n" and self.north != None:
-            return self.north
+        while True:
+            # changes direction to single letter
+            direction = interpretinput(input("\nWhere do you go? "))
+            # returns the room in the specified direction in relation to the current room
+            if direction == "n" and self.north != None:
+                return self.north
 
-        elif direction == "s" and self.south != None:
-            return self.south
+            elif direction == "s" and self.south != None:
+                return self.south
 
-        elif direction == "e" and self.east != None:
-            return self.east
+            elif direction == "e" and self.east != None:
+                return self.east
 
-        elif direction == "w" and self.west != None:
-            return self.west
+            elif direction == "w" and self.west != None:
+                return self.west
 
-        # returns the unchanged room if the movement is invalid
-        elif direction == "invalid":
-            print("\nInvalid direction.\n")
-            return self
+            # returns the unchanged room if the movement is invalid
+            elif direction == "invalid":
+                print("\nInvalid direction.")
 
-        else:
-            print("There is no room in that direction.")
-            return self
+            else:
+                print("There is no room in that direction.")
 
 
 # room definitions
@@ -560,7 +569,7 @@ def intro(inventory):
     print(" | |      | || |  __| |__| |  | | | (___ | |__) | |__  | |__  | |  | |")
     print(" | |      | || | |_ |  __  |  | |  \___ \|  ___/|  __| |  __| | |  | |")
     print(" | |____ _| || |__| | |  | |  | |  ____) | |    | |____| |____| |__| |")
-    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.1")
+    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.12")
     print("                                                                        Created by: Tony Li")
     print("                             1: New Game")
     print("                             2: Load Game")
@@ -654,7 +663,7 @@ def playgame():
     # main loop
     while not gameover:
         # prints room description
-        print("\n----------------------------------------------\n\n" + currentroom.description)
+        print("\n----------------------------------------------\n\n" + currentroom.description + "\n")
 
         # lists choices
         for i, action in enumerate(currentroom.actions):
@@ -665,8 +674,7 @@ def playgame():
         chosenaction = input("\nWhat do you do? ")
         print()
         inventory = performaction(currentroom, chosenaction, inventory)
-        direction = input("\nWhere do you go? ")
-        currentroom = currentroom.move(interpretinput(direction))
+        currentroom = currentroom.move()
         gameover = battle(inventory)
         input("Press enter to continue..")
 
