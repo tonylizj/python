@@ -1,25 +1,44 @@
+# import modules
 import time
 import os
 import random
 
+
 def cls():
+    """
+    Clears console screen
+    :return: None
+    """
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
 def cleaninput(text):
+    """
+    Changes text to lowercase and removes spaces
+    :param text: text to clean
+    :return: cleaned text
+    """
+    # changes text to a list of lowercase letters
     text_list = list(text.lower())
+    # remove spaces
     for letter in range(len(text_list)):
         if text_list[letter] == " ":
             text_list[letter] = ""
 
+    # returns joined text
     return "".join(text_list)
 
 
 def interpretinput(text):
-    cleaninput(text)
-    if text == "help":
-        pass
-
-    elif text in ["north", "n"]:
+    """
+    Changes movement words to "n", "s", "e", or "w"
+    :param text: movement command
+    :return: movement letter or invalid
+    """
+    # cleans text
+    text = cleaninput(text)
+    # changes directions to a single letter
+    if text in ["north", "n"]:
         return "n"
 
     elif text in ["south", "s"]:
@@ -31,13 +50,20 @@ def interpretinput(text):
     elif text in ["west", "w"]:
         return "w"
 
+    # returns invalid if the user did not enter a direction
     else:
         return "invalid"
 
 
 class Room:
-
     def __init__(self, number, name, description, actions):
+        """
+        Initialized room object with number, name, description, and actions
+        :param number: number of room
+        :param name: name of room
+        :param description: description of room
+        :param actions: possible actions of room
+        """
         self.number = number
         self.name = name
         self.description = description
@@ -48,13 +74,29 @@ class Room:
         self.actions = actions
 
     def set_directions(self, north, south, east, west):
+        """
+        Sets rooms that connect to a room object
+        :param north: room to the north of room
+        :param south: room to the south of room
+        :param east: room to the east of room
+        :param west: room to the west of room
+        :return: None
+        """
+        # sets direction methods
         self.north = north
         self.south = south
         self.east = east
         self.west = west
 
     def move(self, direction):
+        """
+        Moves player to a connected room
+        :param direction: direction to move in
+        :return: new room player is in
+        """
+        # changes direction to single letter
         direction = interpretinput(direction)
+        # returns the room in the specified direction in relation to the current room
         if direction == "n" and self.north != None:
             return self.north
 
@@ -67,8 +109,9 @@ class Room:
         elif direction == "w" and self.west != None:
             return self.west
 
+        # returns the unchanged room if the movement is invalid
         elif direction == "invalid":
-            print("Invalid direction.")
+            print("\nInvalid direction.\n")
             return self
 
         else:
@@ -76,22 +119,56 @@ class Room:
             return self
 
 
-room0 = Room(0, "airlock", "You walk into the airlock, the sealing of the door is partially bent from the crash.\nThere is a corridor to the south.", ("Look outside", "Go outside"))
-room1 = Room(1, "shipmanage", "You are at the ship management sector. Thousands of switches and indicators line the walls.\nCommunications is to the south and driving is to the east.", ("Check ship status", "Take extinguisher"))
-room2 = Room(2, "driving", "You are at the ship's driving controls. It appears to be intact.\nThe engineering station is to the south and ship management is to the west.", ("Try to jump",))
-room3 = Room(3, "airlockhallway", "You walk into the corridor to the airlock. The secondary cannon is stationed by the wall.\nThe airlock is to the north and weapons control is to the south.", ("Take spacesuits", "Repair secondary cannon"))
-room4 = Room(4, "communications", "You are at the ship's communications systems. They are broken beyond repair.\nShip management is to the north, there is a hallway to the south, the engineering station is to the east.", ("Save game", ))
-room5 = Room(5, "engineerstation", "You are at the station of the chief engineer. Much of his work is scattered all over the table.\nDriving controls are to the north and communications is to the west.", ("Search through blueprints.",))
-room6 = Room(6, "weapons", "You arrive at the ship's weapons management. The main cannon is stationed here.\nThe hallway to the airlock is to the north and a corridor is to the east.", ("Repair primary cannon", "Take pistol"))
-room7 = Room(7, "corridor", "You continue walking down the corridor.\nWeapons control is to the west while the corridor extends east.", ("Keep going",))
-room8 = Room(8, "corridor", "You walk into a corridor.\nCommunications is to the north while the corridor branches to the west and south", ("Keep going",))
-room9 = Room(9, "corridor", "You continue walking into another corridor.\nThis corridor extends to the north, the dock is to the south.", ("Keep going",))
-room10 = Room(10, "debris", "You reach the end of the hallway. What used to extend into the library is now a pile of rubble and debris. You notice a piece of newspaper on the ground.\nA corridor is to the east.", ("Take newspaper",))
-room11 = Room(11, "corridor", "You walk into a corridor.\nThe dock is to the east and a pile of debris is to the west.", ("Keep going",))
-room12 = Room(12, "dock", "You are at the dock. This is where your ship would dock onto others to receive or give supplies.\nThere are corridors to the north, east, and west. The primary airlock is to the south.", ("Keep going",))
-room13 = Room(13, "corridor", "You walk into a corridor, there is a strong smell of fire.\nThe dock is to the west and the navigations room is to the east.", ("Keep going",))
-room14 = Room(14, "navsystem", "You arrive at the navigations room. The autonavigator is on fire. You must put it out.\nThere is a corridor to the west.", ("Put out fire",))
-room15 = Room(15, "primary airlock", "You walk into the primary airlock. This airlock was not designed for crew, but for the transportation of supplies.\nThe dock is to the north.", ("Look outside",))
+# room definitions
+room0 = Room(0, "airlock",
+             "You walk into the airlock, the sealing of the door is partially bent from the crash.\nThere is a corridor to the south.",
+             ("Look outside", "Go outside"))
+room1 = Room(1, "shipmanage",
+             "You are at the ship management sector. Thousands of switches and indicators line the walls.\nCommunications is to the south and driving is to the east.",
+             ("Check ship status", "Take extinguisher"))
+room2 = Room(2, "driving",
+             "You are at the ship's driving controls. It appears to be intact.\nThe engineering station is to the south and ship management is to the west.",
+             ("Try to jump",))
+room3 = Room(3, "airlockhallway",
+             "You walk into the corridor to the airlock. The secondary cannon is stationed by the wall.\nThe airlock is to the north and weapons control is to the south.",
+             ("Take spacesuits", "Repair secondary cannon"))
+room4 = Room(4, "communications",
+             "You are at the ship's communications systems. They are broken beyond repair.\nShip management is to the north, there is a hallway to the south, the engineering station is to the east.",
+             ("Save game",))
+room5 = Room(5, "engineerstation",
+             "You are at the station of the chief engineer. Much of his work is scattered all over the table.\nDriving controls are to the north and communications is to the west.",
+             ("Search through blueprints.",))
+room6 = Room(6, "weapons",
+             "You arrive at the ship's weapons management. The main cannon is stationed here.\nThe hallway to the airlock is to the north and a corridor is to the east.",
+             ("Repair primary cannon", "Take pistol"))
+room7 = Room(7, "corridor",
+             "You continue walking down the corridor.\nWeapons control is to the west while the corridor extends east.",
+             ("Keep going",))
+room8 = Room(8, "corridor",
+             "You walk into a corridor.\nCommunications is to the north while the corridor branches to the west and south",
+             ("Keep going",))
+room9 = Room(9, "corridor",
+             "You continue walking into another corridor.\nThis corridor extends to the north, the dock is to the south.",
+             ("Keep going",))
+room10 = Room(10, "debris",
+              "You reach the end of the hallway. What used to extend into the library is now a pile of rubble and debris. You notice a piece of newspaper on the ground.\nA corridor is to the east.",
+              ("Take newspaper",))
+room11 = Room(11, "corridor", "You walk into a corridor.\nThe dock is to the east and a pile of debris is to the west.",
+              ("Keep going",))
+room12 = Room(12, "dock",
+              "You are at the dock. This is where your ship would dock onto others to receive or give supplies.\nThere are corridors to the north, east, and west. The primary airlock is to the south.",
+              ("Keep going",))
+room13 = Room(13, "corridor",
+              "You walk into a corridor, there is a strong smell of fire.\nThe dock is to the west and the navigations room is to the east.",
+              ("Keep going",))
+room14 = Room(14, "navsystem",
+              "You arrive at the navigations room. The autonavigator is on fire. You must put it out.\nThere is a corridor to the west.",
+              ("Put out fire",))
+room15 = Room(15, "primary airlock",
+              "You walk into the primary airlock. This airlock was not designed for crew, but for the transportation of supplies.\nThe dock is to the north.",
+              ("Look outside",))
+
+# room connection definitions
 room0.set_directions(None, room3, None, None)
 room1.set_directions(None, room4, room2, None)
 room2.set_directions(None, room5, None, room1)
@@ -109,33 +186,75 @@ room13.set_directions(None, None, room14, room12)
 room14.set_directions(None, None, None, room13)
 room15.set_directions(room12, None, None, None)
 
+
 def victory(inventory):
-    print("you win")
+    """
+    Prints out victory message
+    :param inventory: list of player's possessions
+    :return: None
+    """
+    # prints victory
+    print(" __      _______ _____ _______ ____  _______     __")
+    print(" \ \    / /_   _/ ____|__   __/ __ \|  __ \ \   / /")
+    print("  \ \  / /  | || |       | | | |  | | |__) \ \_/ / ")
+    print("   \ \/ /   | || |       | | | |  | |  _  / \   /  ")
+    print("    \  /   _| || |____   | | | |__| | | \ \  | |   ")
+    print("     \/   |_____\_____|  |_|  \____/|_|  \_\ |_|   ")
+    print("                                                   ")
+
+    # counts the number of cannons the player fixed
+    cannons = 0
+    if "cannon1" in inventory:
+        cannons += 1
+
+    if "cannon2" in inventory:
+        cannons += 1
+
+    # prints the victory message with cannons repaired
+    print("Congratulations. You repaired navigations and arrived home, evading Federation forces.")
+    print("You also repaired {0} cannon(s) out of 2.".format(cannons))
     quit()
 
 
 def battle(inventory):
+    """
+    Fights player and federation soldiers
+    :param inventory: list of player's possessions
+    :return: whether the player died
+    """
+    # if the player's ship is being raided
     if "raid" in inventory:
+        # 40% chance to spawn an enemy
         spawn = random.randint(0, 5)
         if spawn < 3:
+            # if the player has a pistol
             if "pistol" in inventory:
                 print("\nYou suddenly see face-to-face to a Federation soldier. You pull out the pistol you took from weapons management.")
                 time.sleep(2)
-                damage = random.randint(0, 10)
+                damage = random.randint(0, 15)
+                # health is reduced by the amount of damage taken
                 inventory[0] = inventory[0] - damage
                 print("You took {0} points of damage. You have {1} health remaining.".format(damage, inventory[0]))
 
+            # if the player did not take the pistol
             elif "pistol" not in inventory:
                 print("\nYou suddenly see face-to-face to a Federation soldier. You pull out your knife.")
                 print("There is a pistol at weapons management. It would help.")
                 time.sleep(2)
-                damage = random.randint(5, 15)
+                damage = random.randint(10, 20)
+                # health is reduced by the amount of damage taken
                 inventory[0] = inventory[0] - damage
                 print("You took {0} points of damage. You have {1} health remaining.".format(damage, inventory[0]))
 
+            # if health is below zero, return True
             if inventory[0] <= 0:
                 return True
 
+            # otherwise return False
+            else:
+                return False
+
+    # if the player is not being raided for the enemy does not spawn, nothing happens
         else:
             pass
 
@@ -143,15 +262,26 @@ def battle(inventory):
         pass
 
 
-def performaction(currentroom, action, inventory, gameover):
+def performaction(currentroom, action, inventory):
+    """
+    Performs actions described in room object
+    :param currentroom: room player is in
+    :param action: action player chose
+    :param inventory: list of player's possessions
+    :return: inventory
+    """
+    # checks for the room the player is in
     if currentroom == room0:
+        # checks for which action the player chose
         if action == "1":
             print("You stare into the abyss..")
 
         elif action == "2":
+            # checks for item in player's inventory
             if "spacesuit" in inventory:
                 print("You put on the spacesuit and head outside. There is an apparent coldness but you are protected by the suit.\nAsteroids drift by, sometimes knocking into your ship and producing heart-wrenching sounds. You see ship systems broken from the accident, electricity flickering in the darkness.")
                 print("You notice a piece of paper floating just outside of your ship. It's the navigations blueprint! You snatch it quickly.")
+                # adds item to player's inventory
                 inventory.append("navbp")
 
             else:
@@ -189,6 +319,7 @@ def performaction(currentroom, action, inventory, gameover):
                 print("Once you begin travelling home, you will no longer be able to repair any cannons.")
                 askjump = input("Jump anyway? (y/n) ")
                 if askjump == "y":
+                    # prints victory message
                     victory(inventory)
 
                 elif askjump == "n":
@@ -232,7 +363,9 @@ def performaction(currentroom, action, inventory, gameover):
 
     elif currentroom == room4:
         if action == "1":
+            # saves game
             savefile = open("tonyli_gamesave.txt", "w")
+            # writes player's inventory to save file
             for item in inventory:
                 savefile.write(str(item) + "\n")
             savefile.close()
@@ -369,27 +502,30 @@ def performaction(currentroom, action, inventory, gameover):
                             print("Let's go home.")
 
                         else:
-                            print("You need to find the blueprint for navigations to fix this. Somebody jokingly said that he would throw it into space..")
+                            print(
+                                "You need to find the blueprint for navigations to fix this. Somebody jokingly said that he would throw it into space..")
 
                 else:
                     inventory.append("fireout")
-                    print("You spray the extinguisher all over the room, putting the fire out. Luckily, the navigation system is not damaged.")
+                    print(
+                        "You spray the extinguisher all over the room, putting the fire out. Luckily, the navigation system is not damaged.")
                     if "navbp" in inventory:
                         inventory.append("nav")
                         print("You fix the navigations system with the blueprint you found. It works.")
                         print("Let's go home.")
 
                     else:
-                        print("You need to find the blueprint for navigations to fix this. Somebody jokingly said that he would throw it into space..")
+                        print(
+                            "You need to find the blueprint for navigations to fix this. Somebody jokingly said that he would throw it into space..")
 
             else:
                 print("You need to find a fire extinguisher. There should be one at ship management.")
 
             if "raid" not in inventory:
                 inventory.append("raid")
-                print("Suddenly, the whole ship shakes. Another ship has docked with your ship. Judging by the signature, it's a Federation ship. How could they have found us?")
+                print(
+                    "Suddenly, the whole ship shakes. Another ship has docked with your ship. Judging by the signature, it's a Federation ship. How could they have found us?")
                 print("Federation soldiers are piling into the ship.")
-
 
         elif action == "":
             print("You choose to do nothing.")
@@ -399,7 +535,8 @@ def performaction(currentroom, action, inventory, gameover):
 
     elif currentroom == room13:
         if action == "1":
-            print("You can see asteroids moving in the darkness. A faint glow in the distance resembles a Federation ship in pursuit. You should hurry.")
+            print(
+                "You can see asteroids moving in the darkness. A faint glow in the distance resembles a Federation ship in pursuit. You should hurry.")
 
         elif action == "":
             print("You choose to do nothing.")
@@ -407,29 +544,38 @@ def performaction(currentroom, action, inventory, gameover):
         else:
             print("Invalid input.")
 
+    # returns inventory
     return inventory
 
 
 def intro(inventory):
+    """
+    Shows title and let's player load game or start a new game
+    :param inventory: list of player's possessions
+    :return: inventory
+    """
+    # prints game title
     print("  _      _____ _____ _    _ _______ _____ _____  ______ ______ _____  ")
     print(" | |    |_   _/ ____| |  | |__   __/ ____|  __ \|  ____|  ____|  __ \ ")
     print(" | |      | || |  __| |__| |  | | | (___ | |__) | |__  | |__  | |  | |")
     print(" | |      | || | |_ |  __  |  | |  \___ \|  ___/|  __| |  __| | |  | |")
     print(" | |____ _| || |__| | |  | |  | |  ____) | |    | |____| |____| |__| |")
-    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.0")
+    print(" |______|_____\_____|_|  |_|  |_| |_____/|_|    |______|______|_____/   Version 1.1")
     print("                                                                        Created by: Tony Li")
     print("                             1: New Game")
     print("                             2: Load Game")
 
     while True:
         gameoption = input("\n\nEnter an option: ")
+        # plays story if the player selects new game
         if gameoption == "1":
             cls()
             print("\n\n\n\n")
-            print("After 11 years serving aboard the RS Conqueror, the Second War of Jupiter has finally come to a close.")
-            time.sleep(3)
+            print(
+                "After 11 years serving aboard the RS Conqueror, the Second War of Jupiter has finally come to a close.")
+            time.sleep(4)
             print("It's time to head home.")
-            time.sleep(1)
+            time.sleep(2)
             print("\n\"Prepare to jump!\", the captain shouts over the roar of the ion engines. I ready the propellant.")
             time.sleep(3)
             print("\n\"10\"")
@@ -464,48 +610,74 @@ def intro(inventory):
             input("Press enter to begin..")
             return inventory
 
+        # loads from save file if the player selects load game
         elif gameoption == "2":
-            savefile = open("tonyli_gamesave.txt", "r")
-            while True:
-                inventory.append(savefile.readline().strip())
-                if inventory[-1] == "":
-                    inventory.remove("")
-                    break
-                inventory[0] = int(inventory[0])
+            try:
+                savefile = open("tonyli_gamesave.txt", "r")
+                # loads file text into player inventory
+                while True:
+                    inventory.append(savefile.readline().strip())
+                    if inventory[-1] == "":
+                        inventory.remove("")
+                        break
+                    inventory[0] = int(inventory[0])
 
-            print("Game loaded.")
-            print(inventory)
-            return inventory
+                print("Game loaded.")
+                print(inventory)
+                return inventory
 
+            # if ther save file doesn't exist
+            except FileNotFoundError:
+                print("No save file found.")
+
+        # if the player did not type 1 or 2
         else:
             print("Invalid option.")
             time.sleep(1)
             cls()
-            print("\n\n\n\n")
+            print("\n\n")
 
 
 def playgame():
+    """
+    Main function that manages gameplay
+    :return: None
+    """
+    # sets starter room and health
     currentroom = room2
     inventory = [100]
     gameover = False
 
+    # plays intro
     inventory = intro(inventory)
 
+    # main loop
     while not gameover:
-        print("\n----------------------------------------------\n" + currentroom.description)
+        # prints room description
+        print("\n----------------------------------------------\n\n" + currentroom.description)
 
+        # lists choices
         for i, action in enumerate(currentroom.actions):
-            print("{0}: {1}".format(i+1, action))
+            print("{0}: {1}".format(i + 1, action))
 
+        # executes action, performs movement, does battle
         print("Press enter to do nothing.")
         chosenaction = input("\nWhat do you do? ")
-        inventory = performaction(currentroom, chosenaction, inventory, gameover)
+        print()
+        inventory = performaction(currentroom, chosenaction, inventory)
         direction = input("\nWhere do you go? ")
         currentroom = currentroom.move(interpretinput(direction))
         gameover = battle(inventory)
         input("Press enter to continue..")
 
-    print("you died")
+    # if the player dies
+    print(" __     ______  _    _   _____ _____ ______ _____  ")
+    print(" \ \   / / __ \| |  | | |  __ \_   _|  ____|  __ \ ")
+    print("  \ \_/ / |  | | |  | | | |  | || | | |__  | |  | |")
+    print("   \   /| |  | | |  | | | |  | || | |  __| | |  | |")
+    print("    | | | |__| | |__| | | |__| || |_| |____| |__| |")
+    print("    |_|  \____/ \____/  |_____/_____|______|_____/ ")
+    print("                                                   ")
 
-
+# begins game
 playgame()
