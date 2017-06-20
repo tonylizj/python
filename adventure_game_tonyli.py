@@ -240,7 +240,7 @@ def battle(inventory):
             if "pistol" in inventory:
                 print("\nYou suddenly see face-to-face to a Federation soldier. You pull out the pistol you took from weapons management.\n")
                 time.sleep(3)
-                damage = random.randint(5, 15)
+                damage = random.randint(5, 10)
                 # health is reduced by the amount of damage taken
                 inventory[0] = inventory[0] - damage
                 print("You took {0} points of damage. You have {1} health remaining.".format(damage, inventory[0]))
@@ -289,9 +289,13 @@ def performaction(currentroom, action, inventory):
             # checks for item in player's inventory
             if "spacesuit" in inventory:
                 print("You put on the spacesuit and head outside. There is an apparent coldness but you are protected by the suit.\nAsteroids drift by, sometimes knocking into your ship and producing heart-wrenching sounds. You see ship systems broken from the accident, electricity flickering in the darkness.")
-                print("You notice a piece of paper floating just outside of your ship. It's the navigations blueprint! You snatch it quickly.")
-                # adds item to player's inventory
-                inventory.append("navbp")
+                if "navbp" not in inventory:
+                    print("You notice a piece of paper floating just outside of your ship. It's the navigations blueprint! You snatch it quickly.")
+                    # adds item to player's inventory
+                    inventory.append("navbp")
+
+                else:
+                    print("This is where you found the navigations blueprint.")
 
             else:
                 print("You have no spacesuit.")
@@ -388,8 +392,12 @@ def performaction(currentroom, action, inventory):
 
     elif currentroom == room5:
         if action == "1":
-            inventory.append("cannon1bp")
-            print("You find the blueprint for the ship's main cannon, taking it with you.")
+            if "cannon1bp" not in inventory:
+                inventory.append("cannon1bp")
+                print("You find the blueprint for the ship's main cannon, taking it with you.")
+
+            else:
+                print("There are no more useful blueprints.")
 
         elif action == "":
             print("You choose to do nothing.")
@@ -545,7 +553,7 @@ def performaction(currentroom, action, inventory):
         else:
             print("Invalid input.")
 
-    elif currentroom == room13:
+    elif currentroom == room15:
         if action == "1":
             print("You can see asteroids moving in the darkness. A faint glow in the distance resembles a Federation ship in pursuit. You should hurry.")
 
@@ -633,9 +641,11 @@ def intro(inventory):
                         inventory.remove(100)
                         break
 
-                print("Game loaded.")
+                print("\nGame loaded.")
                 inventory[0] = int(inventory[0])
-                print(inventory)
+                print("Inventory:")
+                for i in range(len(inventory)):
+                    print(inventory[i], end=' ')
                 return inventory
 
             # if ther save file doesn't exist
