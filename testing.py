@@ -1,2 +1,1 @@
-if "hi" in input():
-    print("hello")
+print(0.001+0.0001)
