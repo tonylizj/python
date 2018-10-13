@@ -1,4 +1,4 @@
-import a2
+from Learn_to_Program_Crafting_Quality_Code import a2
 import tkinter
 import tkinter.filedialog
 import tkinter.font

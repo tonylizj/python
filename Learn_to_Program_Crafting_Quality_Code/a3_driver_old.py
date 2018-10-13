@@ -1,5 +1,5 @@
 from tkinter.filedialog import askopenfile
-import a3_old
+from Learn_to_Program_Crafting_Quality_Code import a3_old
 
 
 def print_board(board):
