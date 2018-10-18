@@ -8,6 +8,7 @@
     <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="module" module-name="untitled" />
     <orderEntry type="module" module-name="robotics2018-2019" />
+    <orderEntry type="module" module-name="command-based-sample" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
