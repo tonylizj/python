@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CCC.iml" filepath="$PROJECT_DIR$/.idea/CCC.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../robotics2018-2019/command-based-sample/.idea/command-based-sample.iml" filepath="$PROJECT_DIR$/../../robotics2018-2019/command-based-sample/.idea/command-based-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../django/.idea/django.iml" filepath="$PROJECT_DIR$/../../django/.idea/django.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../robotics2018-2019/.idea/robotics2018-2019.iml" filepath="$PROJECT_DIR$/../../robotics2018-2019/.idea/robotics2018-2019.iml" />
       <module fileurl="file://$PROJECT_DIR$/../.idea/untitled.iml" filepath="$PROJECT_DIR$/../.idea/untitled.iml" />
     </modules>

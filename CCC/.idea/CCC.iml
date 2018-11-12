@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="untitled" />
     <orderEntry type="module" module-name="robotics2018-2019" />
     <orderEntry type="module" module-name="command-based-sample" />
+    <orderEntry type="module" module-name="django" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
