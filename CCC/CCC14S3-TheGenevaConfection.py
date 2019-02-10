@@ -7,13 +7,13 @@ for i in range(int(input())):
 
     while True:
 
-        while branch and branch[-1] == counter:
-            counter += 1
-            branch.pop()
-
         while mountain and mountain[-1] == counter:
             counter += 1
             mountain.pop()
+
+        while branch and branch[-1] == counter:
+            counter += 1
+            branch.pop()
 
         while mountain and mountain[-1] != counter and (not branch or branch[-1] != counter):
             branch.append(mountain[-1])

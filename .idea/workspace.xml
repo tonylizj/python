@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6392af8-fff7-4614-901c-037767237b6d" name="Default" comment="versio">
+      <change afterPath="$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent_of_code/Day_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent_of_code/Day_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/random/testing.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +24,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advent_of_code/Day_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="640">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advent_of_code/Day_4_Input.txt">
+        <entry file="file://$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14288">
-              <caret line="893" column="11" selection-start-line="893" selection-start-column="6" selection-end-line="893" selection-end-column="11" />
+            <state relative-caret-position="528">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -58,6 +92,13 @@
       <find>1518-11-23</find>
       <find>03-31</find>
       <find>04-04</find>
+      <find>coods[0]</find>
+      <find>coods[1]</find>
+      <find>coods[2]</find>
+      <find>coods[3]</find>
+      <find>coods[4]</find>
+      <find>coods[5]</find>
+      <find>int</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,10 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.py" />
-        <option value="$PROJECT_DIR$/a3_driver.py" />
-        <option value="$PROJECT_DIR$/word_list.py" />
-        <option value="$PROJECT_DIR$/board.py" />
         <option value="$PROJECT_DIR$/a3.py" />
         <option value="$PROJECT_DIR$/typeshift.py" />
         <option value="$PROJECT_DIR$/loop.py" />
@@ -116,6 +153,12 @@
         <option value="$PROJECT_DIR$/advent_of_code/n.py" />
         <option value="$PROJECT_DIR$/advent_of_code/Day_3_Part_2.py" />
         <option value="$PROJECT_DIR$/advent_of_code/Day_4.py" />
+        <option value="$PROJECT_DIR$/random/chris_cpt.py" />
+        <option value="$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py" />
+        <option value="$PROJECT_DIR$/CCC/MockCCC19S1-Tudor'sDoubleDoors.py" />
+        <option value="$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py" />
+        <option value="$PROJECT_DIR$/random/testing.py" />
+        <option value="$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py" />
       </list>
     </option>
   </component>
@@ -131,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,24 +185,28 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="advent_of_code" type="462c0819:PsiDirectoryNode" />
+              <item name="CCC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="christmas contest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -185,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_4">
+  <component name="RunManager" selected="Python.testing">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
@@ -243,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CCC14S3-TheGenevaConfection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,12 +299,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/christmas contest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\tonylizj\Documents\GitHub\python\christmas contest\2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MockCCC19C2S2-TudorPutsAGoatOnARope" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,12 +321,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/christmas contest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/christmas contest/4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,20 +335,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day_3_Part_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MockCCC19C2S3-TudorTalliesTriangularTotals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent_of_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent_of_code/Day_3_Part_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,7 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MockCCC19S1-Tudor'sDoubleDoors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,12 +362,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent_of_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent_of_code/Day_4.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tonylizj\Documents\GitHub\python\CCC\MockCCC19C2S1-Tudor'sDoubleDoors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,20 +398,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="n" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent_of_code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent_of_code/n.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,19 +419,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.1" />
-      <item itemvalue="Python.3" />
-      <item itemvalue="Python.4" />
-      <item itemvalue="Python.Day_4" />
-      <item itemvalue="Python.n" />
-      <item itemvalue="Python.Day_3_Part_2" />
+      <item itemvalue="Python.MockCCC19S1-Tudor'sDoubleDoors" />
+      <item itemvalue="Python.MockCCC19C2S2-TudorPutsAGoatOnARope" />
+      <item itemvalue="Python.MockCCC19C2S3-TudorTalliesTriangularTotals" />
+      <item itemvalue="Python.CCC14S3-TheGenevaConfection" />
+      <item itemvalue="Python.testing" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day_4" />
-        <item itemvalue="Python.Day_3_Part_2" />
-        <item itemvalue="Python.n" />
-        <item itemvalue="Python.4" />
-        <item itemvalue="Python.3" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.MockCCC19C2S3-TudorTalliesTriangularTotals" />
+        <item itemvalue="Python.CCC14S3-TheGenevaConfection" />
+        <item itemvalue="Python.MockCCC19C2S2-TudorPutsAGoatOnARope" />
+        <item itemvalue="Python.MockCCC19S1-Tudor'sDoubleDoors" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +461,11 @@
       <workItem from="1545777940997" duration="5782000" />
       <workItem from="1545882671036" duration="50000" />
       <workItem from="1545882761521" duration="922000" />
+      <workItem from="1547936729991" duration="304000" />
+      <workItem from="1549655742455" duration="98000" />
+      <workItem from="1549656113848" duration="601000" />
+      <workItem from="1549675619018" duration="11096000" />
+      <workItem from="1549743841231" duration="11932000" />
     </task>
     <servers />
   </component>
@@ -455,7 +502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43345000" />
+    <option name="totallyTimeSpent" value="67376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +516,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -483,9 +530,9 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Salesforce" order="9" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290461" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4989339" visible="true" weight="0.30975348" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49840087" weight="0.30975348" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.30975348" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.30975348" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -563,24 +610,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 1.13 (again)&#10;fixed getting duplicate blueprints&#10;better printing of inventory on load&#10;pistol prevents more damage" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a1_old.py" />
-    <entry file="file://$PROJECT_DIR$/typeshift.py" />
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loop.py" />
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10519">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a3_driver_old.py" />
-    <entry file="file://$PROJECT_DIR$/test_swap_k.py" />
     <entry file="file://$PROJECT_DIR$/a1.py" />
     <entry file="file://$PROJECT_DIR$/text2.txt" />
     <entry file="file://$PROJECT_DIR$/list_assignment_for_video.py" />
@@ -655,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christmas contest/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/christmas contest/2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -725,17 +747,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent_of_code/Day_4.py">
+    <entry file="file://$PROJECT_DIR$/random/chris_cpt.py" />
+    <entry file="file://$PROJECT_DIR$/christmas contest/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="160">
+          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advent_of_code/Day_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/CCC14S3-TheGenevaConfection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/advent_of_code/Day_4_Input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14288">
-          <caret line="893" column="11" selection-start-line="893" selection-start-column="6" selection-end-line="893" selection-end-column="11" />
+        <state relative-caret-position="267">
+          <caret line="873" column="43" lean-forward="true" selection-start-line="873" selection-start-column="43" selection-end-line="873" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
