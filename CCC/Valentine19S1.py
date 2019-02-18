@@ -49,4 +49,4 @@ while not done:
     if len(candidates) == 1:
         for candidate in candidates:
             print(candidate)
-        done = True
+            done = True

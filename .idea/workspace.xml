@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6392af8-fff7-4614-901c-037767237b6d" name="Default" comment="versio">
-      <change afterPath="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC/Valentine19S1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC/Valentine19S2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CCC/Valentine19S3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random/felixMATH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random/FibonacciCipher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/random/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC/Valentine19S1.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/Valentine19S1.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,17 +43,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="48">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCC/Valentine19S1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="96">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random/FibonacciCipher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -66,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CCC/Valentine19S2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="352">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
@@ -75,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random/felixMATH.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="304">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
@@ -127,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/li_tony_list_assignment.py" />
         <option value="$PROJECT_DIR$/test_stock_price_summary.py" />
         <option value="$PROJECT_DIR$/test_swap_k.py" />
         <option value="$PROJECT_DIR$/a1.py" />
@@ -172,12 +175,13 @@
         <option value="$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py" />
         <option value="$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py" />
         <option value="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" />
-        <option value="$PROJECT_DIR$/random/felixMATH.py" />
         <option value="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S3.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S2.py" />
         <option value="$PROJECT_DIR$/random/testing.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S1.py" />
+        <option value="$PROJECT_DIR$/random/felixMATH.py" />
+        <option value="$PROJECT_DIR$/random/FibonacciCipher.py" />
       </list>
     </option>
   </component>
@@ -252,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RunManager" selected="Python.FibonacciCipher">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
@@ -310,20 +314,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MockCCC19C2S1-Tudor'sDoubleDoors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FibonacciCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/FibonacciCipher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,6 +337,9 @@
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -355,6 +359,9 @@
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -418,6 +425,9 @@
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -436,18 +446,18 @@
     <list>
       <item itemvalue="Python.1" />
       <item itemvalue="Python.testing" />
-      <item itemvalue="Python.MockCCC19C2S1-Tudor'sDoubleDoors" />
       <item itemvalue="Python.felixMATH" />
       <item itemvalue="Python.Valentine19S2" />
       <item itemvalue="Python.Valentine19S1" />
+      <item itemvalue="Python.FibonacciCipher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FibonacciCipher" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.Valentine19S1" />
         <item itemvalue="Python.Valentine19S2" />
         <item itemvalue="Python.felixMATH" />
-        <item itemvalue="Python.MockCCC19C2S1-Tudor'sDoubleDoors" />
       </list>
     </recent_temporary>
   </component>
@@ -489,6 +499,8 @@
       <workItem from="1550164793710" duration="2695000" />
       <workItem from="1550240978799" duration="1833000" />
       <workItem from="1550343572962" duration="11555000" />
+      <workItem from="1550355888893" duration="1571000" />
+      <workItem from="1550449077503" duration="3557000" />
     </task>
     <servers />
   </component>
@@ -525,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99694000" />
+    <option name="totallyTimeSpent" value="104822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +551,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -553,7 +565,7 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Salesforce" order="9" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290461" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49840087" weight="0.30653805" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49840087" visible="true" weight="0.28510183" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.30975348" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
@@ -633,7 +645,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 1.13 (again)&#10;fixed getting duplicate blueprints&#10;better printing of inventory on load&#10;pistol prevents more damage" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/updateBoard.py" />
     <entry file="file://$USER_HOME$/.PyCharmEdu3.5/system/python_stubs/-313451744/builtins.py" />
     <entry file="file://$PROJECT_DIR$/maze.txt" />
     <entry file="file://$PROJECT_DIR$/a2.py" />
@@ -821,44 +832,51 @@
     <entry file="file://$PROJECT_DIR$/CCC/WrittenCCC18J4.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/Valentine19S3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="48">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCC/Valentine19S3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CCC/Valentine19S2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="352">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random/felixMATH.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random/testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="304">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CCC/Valentine19S1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="96">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/FibonacciCipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
