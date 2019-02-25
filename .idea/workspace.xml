@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6392af8-fff7-4614-901c-037767237b6d" name="Default" comment="versio">
-      <change afterPath="$PROJECT_DIR$/random/FibonacciCipher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC12S3-AbsolutelyAcidic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/WrittenCCCS1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/WrittenCCCS2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/WrittenCCCS3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/WrittenCCCS4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/WrittenCCCS5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CCC/Valentine19S1.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/Valentine19S1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/random/testing.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$CCC07S3_Friends.coverage" NAME="CCC07S3-Friends Coverage Results" MODIFIED="1550673419396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CCC" />
+    <SUITE FILE_PATH="coverage/python$WrittenCCCS4.coverage" NAME="WrittenCCCS4 Coverage Results" MODIFIED="1550700113190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CCC" />
     <SUITE FILE_PATH="coverage/python$Day_1_Chronal_Calibration.coverage" NAME="Day_1_Chronal_Calibration Coverage Results" MODIFIED="1543642257983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advent_of_code" />
+    <SUITE FILE_PATH="coverage/python$WrittenCCCS2.coverage" NAME="WrittenCCCS2 Coverage Results" MODIFIED="1550701536914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CCC" />
+    <SUITE FILE_PATH="coverage/python$CCC12S3_AbsolutelyAcidic.coverage" NAME="CCC12S3-AbsolutelyAcidic Coverage Results" MODIFIED="1550689785647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CCC" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="356" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,65 +48,62 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
+        <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCC/Valentine19S1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="70">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random/FibonacciCipher.py">
+        <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="387">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CCC/Valentine19S2.py">
+        <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="665">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/felixMATH.py">
+        <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/testing.py">
+        <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="70">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS5.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -131,12 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_stock_price_summary.py" />
-        <option value="$PROJECT_DIR$/test_swap_k.py" />
-        <option value="$PROJECT_DIR$/a1.py" />
-        <option value="$PROJECT_DIR$/test_stock_prices_summary.py" />
-        <option value="$PROJECT_DIR$/test_num_buses.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/translated.txt" />
         <option value="$PROJECT_DIR$/source.txt" />
         <option value="$PROJECT_DIR$/fun_translator.py" />
@@ -174,16 +180,28 @@
         <option value="$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py" />
         <option value="$PROJECT_DIR$/CCC/MockCCC19C2S3-TudorTalliesTriangularTotals.py" />
         <option value="$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py" />
-        <option value="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" />
-        <option value="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S3.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S2.py" />
-        <option value="$PROJECT_DIR$/random/testing.py" />
         <option value="$PROJECT_DIR$/CCC/Valentine19S1.py" />
         <option value="$PROJECT_DIR$/random/felixMATH.py" />
         <option value="$PROJECT_DIR$/random/FibonacciCipher.py" />
+        <option value="$PROJECT_DIR$/random/testing.py" />
+        <option value="$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py" />
+        <option value="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" />
+        <option value="$PROJECT_DIR$/CCC/CCC12S3-AbsolutelyAcidic.py" />
+        <option value="$PROJECT_DIR$/CCC/WrittenCCCS5.py" />
+        <option value="$PROJECT_DIR$/CCC/WrittenCCCS1.py" />
+        <option value="$PROJECT_DIR$/CCC/WrittenCCCS4.py" />
+        <option value="$PROJECT_DIR$/CCC/WrittenCCCS3.py" />
+        <option value="$PROJECT_DIR$/CCC/WrittenCCCS2.py" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="220" />
@@ -229,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -256,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FibonacciCipher">
+  <component name="RunManager" selected="Python.WrittenCCCS2">
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
       <method />
     </configuration>
@@ -314,26 +332,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FibonacciCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/FibonacciCipher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Valentine19S1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CCC07S3-Friends" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,7 +345,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/Valentine19S1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC07S3-Friends.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Valentine19S2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CCC12S3-AbsolutelyAcidic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,7 +367,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/Valentine19S2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC12S3-AbsolutelyAcidic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WrittenCCCS1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/WrittenCCCS1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WrittenCCCS2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/WrittenCCCS2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WrittenCCCS4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/WrittenCCCS4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -399,65 +464,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="felixMATH" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/felixMATH.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/testing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.1" />
-      <item itemvalue="Python.testing" />
-      <item itemvalue="Python.felixMATH" />
-      <item itemvalue="Python.Valentine19S2" />
-      <item itemvalue="Python.Valentine19S1" />
-      <item itemvalue="Python.FibonacciCipher" />
+      <item itemvalue="Python.CCC07S3-Friends" />
+      <item itemvalue="Python.CCC12S3-AbsolutelyAcidic" />
+      <item itemvalue="Python.WrittenCCCS1" />
+      <item itemvalue="Python.WrittenCCCS2" />
+      <item itemvalue="Python.WrittenCCCS4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FibonacciCipher" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.Valentine19S1" />
-        <item itemvalue="Python.Valentine19S2" />
-        <item itemvalue="Python.felixMATH" />
+        <item itemvalue="Python.WrittenCCCS2" />
+        <item itemvalue="Python.WrittenCCCS4" />
+        <item itemvalue="Python.WrittenCCCS1" />
+        <item itemvalue="Python.CCC12S3-AbsolutelyAcidic" />
+        <item itemvalue="Python.CCC07S3-Friends" />
       </list>
     </recent_temporary>
   </component>
@@ -501,6 +522,10 @@
       <workItem from="1550343572962" duration="11555000" />
       <workItem from="1550355888893" duration="1571000" />
       <workItem from="1550449077503" duration="3557000" />
+      <workItem from="1550585067565" duration="5033000" />
+      <workItem from="1550673200706" duration="2123000" />
+      <workItem from="1550687197815" duration="15343000" />
+      <workItem from="1550769376153" duration="303000" />
     </task>
     <servers />
   </component>
@@ -537,7 +562,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104822000" />
+    <option name="totallyTimeSpent" value="127624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,13 +576,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17004265" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.500813" side_tool="true" weight="0.17324094" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31770834" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34083602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3164278" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.34950384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
@@ -565,11 +590,12 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Salesforce" order="9" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49840087" visible="true" weight="0.28510183" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49840087" weight="0.2855568" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50159913" side_tool="true" weight="0.30975348" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5010661" side_tool="true" weight="0.34068358" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="16" weight="0.3296582" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -578,6 +604,7 @@
       <window_info anchor="right" id="SciView" order="5" weight="0.32995737" />
       <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" order="6" side_tool="true" weight="0.20095949" />
       <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,14 +672,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 1.13 (again)&#10;fixed getting duplicate blueprints&#10;better printing of inventory on load&#10;pistol prevents more damage" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmEdu3.5/system/python_stubs/-313451744/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/maze.txt" />
-    <entry file="file://$PROJECT_DIR$/a2.py" />
-    <entry file="file://$PROJECT_DIR$/text.txt" />
-    <entry file="file://$PROJECT_DIR$/test.txt" />
-    <entry file="file://$PROJECT_DIR$/li_tony_list_assignment.py" />
-    <entry file="file://$PROJECT_DIR$/markcalc.py" />
-    <entry file="file://$PROJECT_DIR$/rooms.py" />
     <entry file="file://$PROJECT_DIR$/save.txt" />
     <entry file="file://$PROJECT_DIR$/rat_race.py" />
     <entry file="file://$PROJECT_DIR$/testing.py" />
@@ -802,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S2-TudorPutsAGoatOnARope.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -835,19 +847,66 @@
     <entry file="file://$PROJECT_DIR$/CCC/Valentine19S3.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
+    <entry file="file://$PROJECT_DIR$/CCC/MockCCC19C2S1-Tudor'sDoubleDoors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="16">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/tonylizj/Documents/GitHub/python/CCC/CCC12S3-AbsolutelyAcidic.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/tonylizj/Documents/GitHub/python/CCC/CCC12S3-AbsolutelyAcidic.py</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="774.0" y="422.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1731" column="24" lean-forward="true" selection-start-line="1731" selection-start-column="24" selection-end-line="1731" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/VM7WC13#3Silver-CanShahirEvenGetThere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/CCC12S3-AbsolutelyAcidic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/Valentine19S1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/FibonacciCipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CCC/Valentine19S2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="321">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
@@ -860,23 +919,46 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random/testing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="420">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CCC/Valentine19S1.py">
+    <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="70">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/FibonacciCipher.py">
+    <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="665">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/WrittenCCCS1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CCC/CCC07S3-Friends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>

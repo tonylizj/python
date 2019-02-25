@@ -5,15 +5,18 @@ input = stdin.readline
 visited = []
 
 
-def bfs(g, root):
-    seen, queue = [], [root]
+def bfs(g, start):
+    seen, queue = [start], [start]
+
     while queue:
-        vertex = queue.pop(0)
-        visited.append(vertex)
-        for node in g[vertex]:
-            if node not in seen:
-                seen.append(node)
-                queue.append(node)
+        current = queue.pop(0)
+
+        for adjacent in g[current]:
+            if adjacent not in seen:
+                seen.append(adjacent)
+                queue.append(adjacent)
+
+        visited.append(current)
 
 
 graph = {}
