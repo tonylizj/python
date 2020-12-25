@@ -11,7 +11,7 @@ class ListNode {
   }
   deepCopy(): ListNode {
     if (this.next === null) return new ListNode(this.val, null);
-    return new ListNode(this.val, this.deepCopy.bind(this.next)());
+    return new ListNode(this.val, this.next.deepCopy());
   }
 }
 
